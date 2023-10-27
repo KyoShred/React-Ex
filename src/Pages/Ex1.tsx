@@ -1,6 +1,6 @@
 import '../css/main.css'
 import '../css/Ex1.css'
-import React, { Key } from 'react';
+import React from 'react';
 
 function getTodoList() {
   const todoList = JSON.parse(localStorage.getItem('todoList') || 'null') || { incomplete: [], done: [] };
